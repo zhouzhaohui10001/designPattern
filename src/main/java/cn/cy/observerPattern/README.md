@@ -17,4 +17,4 @@
 
 类图
    观察者模式通常基于Subject和__Observer__接口类来设计，下面是是类图：
-   http://upload-images.jianshu.io/upload_images/1167421-fba0f108c1a8fb18.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
+  ![Image text](https://github.com/zhouzhaohui10001/designPattern/raw/master/images/observer.png)
