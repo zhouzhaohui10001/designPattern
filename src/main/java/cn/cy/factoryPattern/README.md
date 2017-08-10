@@ -64,8 +64,8 @@
           ![Image text](https://github.com/zhouzhaohui10001/designPattern/raw/master/images/skin.png)
           像不像两个工厂抽象模式
 
-        类图示例：
-        ![Image text](https://github.com/zhouzhaohui10001/designPattern/raw/master/images/abstractFactory.png)
+      类图示例：
+          ![Image text](https://github.com/zhouzhaohui10001/designPattern/raw/master/images/abstractFactory.png)
    适用场景
         在以下情况下可以考虑使用抽象工厂模式：
           (1) 一个系统不应当依赖于产品类实例如何被创建、组合和表达的细节，这对于所有类型的工厂模式都是很重要的，用户无须关心对象的创建过程，将对象的创建和使用解耦。
