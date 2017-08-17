@@ -47,7 +47,7 @@ public class ImageIOHelper {
             writer.dispose();
             reader.dispose();
 
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return tempFile;
