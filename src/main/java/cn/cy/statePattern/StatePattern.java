@@ -1,4 +1,4 @@
-package cn.cy;
+package cn.cy.statePattern;
 
 /**
  * Created by zhou on 2017/8/18.
