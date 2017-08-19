@@ -111,5 +111,7 @@ public class ChainPattern {
         h2.setNextHandler(h3);
         String str = h1.handleFeeRequest("张三",700);
         System.out.println(str);
+        String str1 = h1.handleFeeRequest("李四",1300);
+        System.out.println(str1);
     }
 }
