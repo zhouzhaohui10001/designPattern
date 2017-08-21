@@ -70,7 +70,8 @@ class MyInterceptor implements MethodInterceptor {
 
 // 因此，调用父类的方法，应该使用MethodProxy.invokeSuper()方法
         System.out.println("开始事务。。。。。。。。。。");
-        Object returnValue = methodProxy.invoke(o,objects);
+//        注意 这里调用的是invokeSuper 因为o为代理对象，如果想用invoke要把目标类传过来（如设置为成员变量）
+        Object returnValue = methodProxy.invokeSuper(o,objects);
         System.out.println("提交事务。。。。。。。");
         return returnValue;
     }
