@@ -13,5 +13,10 @@
             <artifactId>swingx</artifactId>
             <version>1.6.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>4.3.10.RELEASE</version>
+        </dependency>
     </dependencies>
 </project>
